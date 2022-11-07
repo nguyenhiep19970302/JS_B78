@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card-header">
+            Bài tập về nhà
+        </div>
+        <div class="card-body">
+            <input type="text" id="number" placeholder="Nhấp số ">
+            <button class="btn btn-primary" id="btnAddNumber" onclick="btnAddNumber()"> Thêm số </button>
+        </div>
+        <div class="card-footer bg-success" id="listNumber">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 1 Tổng số dương
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnSumNumber" onclick="btnSumNumber()">Tính tổng </button>
+        </div>
+        <div class="card-footer bg-success" id="Number1">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 2 đếm số dương
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnPositiveNumber" onclick="btnPositiveNumbers()">Đếm số</button>
+        </div>
+        <div class="card-footer bg-success" id="Number2">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 3 tìm số nhỏ nhất
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnSmallestNumber" onclick="btnSmallestNumber()">Tìm số nhỏ
+                nhất</button>
+        </div>
+        <div class="card-footer bg-success" id="Number3">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 4 tìm số dương nhỏ nhất
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnSmallestPositiveNumber" onclick="btnSmallestPositiveNumber()">Tìm số
+                dương nhỏ nhất</button>
+        </div>
+        <div class="card-footer bg-success" id="Number4">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 5 tìm số chẵn cuối cùng
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnEvenNumber" onclick="btnEvenNumber()">Tìm số
+                chẵn</button>
+        </div>
+        <div class="card-footer bg-success" id="Number5">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 6 đổi chỗ
+        </div>
+        <div class="card-body">
+            <input type="text" id="locationNumber1" placeholder="Nhấp số vị trí 1 ">
+            <input type="text" id="locationNumber2" placeholder="Nhấp số vị trí 2">
+            <button class="btn btn-primary" id="btnTranlate" onclick="btnTranlate()">Đổi chỗ</button>
+        </div>
+        <div class="card-footer bg-success" id="Number6">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 7 sắp xếp tăng dần
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnSortUp " onclick="btnSortUp()">Sắp xếp</button>
+        </div>
+        <div class="card-footer bg-success" id="Number7">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 8 tìm số nguyên tố đầu tiên
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnCheckNumber " onclick="btnCheckNumber()">Tìm số nguyên tố</button>
+        </div>
+        <div class="card-footer bg-success" id="Number8">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 9 đếm số nguyên
+        </div>
+        <div class="card-body">
+            <input type="text" id="number1" placeholder="Nhấp số ">
+            <button class="btn btn-primary" id="btnAddNumber1" onclick="btnAddNumber1()"> Thêm số </button>
+        </div>
+        <div class="card-footer bg-success" id="listNumber1">
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnCountIntegers" onclick="btnCountIntegers()">Đếm số nguyên</button>
+        </div>
+        <div class="card-footer bg-success" id="Number9">
+        </div>
+        <hr>
+        <div class="card-header">
+            Bài tập 10 so sánh số lượng âm và dương
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary" id="btnCompare" onclick="btnCompare()">So sánh</button>
+        </div>
+        <div class="card-footer bg-success" id="Number10">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
